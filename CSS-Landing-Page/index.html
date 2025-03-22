@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="./css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1100px)"
+      href="./css/widescreen.css"
+    />
+
+    <title>Bano Qabil 4.0 | Assignment</title>
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav id="navbar">
+      <h1 class="logo">
+        <span class="text-primary"><i class="fas fa-book-open"></i> Saad</span
+        >Masood
+      </h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#what">About</a></li>
+        <li><a href="#who">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Showcase -->
+
+    <header id="showcase">
+      <div class="showcase-content">
+        <h1 class="l-heading">
+          Bano Qabil 4.0 WD-I 
+        </h1>
+
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint,
+          expedita soluta quo doloribus perspiciatis.
+        </p>
+
+        <a href="#what" class="btn">Read More</a>
+      </div>
+    </header>
+
+    <!-- Section: What we do -->
+    <section id="what" class="bg-light py-1">
+      <div class="container">
+        <h2 class="m-heading text-center">
+          <span class="text-primary">What</span> We Do
+        </h2>
+        <div class="Items">
+          <div class="Item">
+            <i class="fas fa-university fa-3x"></i>
+            <div class="headpara">
+              <h3>Banking Investment</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Quaerat, a.
+              </p>
+            </div>
+          </div>
+          <div class="Item">
+            <i class="fas fa-book-reader fa-3x"></i>
+            <div class="headpara">
+              <h3>Portfolio Management</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Quaerat, a.
+              </p>
+            </div>
+          </div>
+          <div class="Item">
+            <i class="fas fa-pencil-alt fa-3x"></i>
+            <div class="headpara">
+              <h3>Tax & Custodial</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Quaerat, a.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Who we are -->
+    <section id="who">
+      <div class="who-img"></div>
+      <div class="who-text bg-dark p-2">
+        <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+          delectus iure tenetur dignissimos dolores consequatur omnis
+          accusantium. Ab maiores obcaecati necessitatibus adipisci nesciunt,
+          corporis distinctio, vitae temporibus, animi reprehenderit rerum.
+        </p>
+        <h3 class="s-heading">Our Team</h3>
+        <ul class="list">
+          <li>Mark Smith: CEO</li>
+          <li>Basit Hussain: CFO</li>
+          <li>Muhammad Haris: Lead Accountant</li>
+          <li>Bilal Ahmed: Investment Management</li>
+          <li>Fatima Ahmed: Senior Accountant</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section: Our Client -->
+    <section id="client" class="py-1">
+      <div class="container">
+        <h2 class="m-heading text-center">
+          <spant class="text-primary">Our</spant> Clients
+        </h2>
+        <div class="items">
+          <div>
+            <img src="./image_resources/logos/logo1.png" alt="Client-1" />
+          </div>
+          <div>
+            <img src="./image_resources/logos/logo2.png" alt="Client-2" />
+          </div>
+          <div>
+            <img src="./image_resources/logos/logo3.png" alt="Client-3" />
+          </div>
+          <div>
+            <img src="./image_resources/logos/logo4.png" alt="Client-4" />
+          </div>
+          <div>
+            <img src="./image_resources/logos/logo5.png" alt="Client-5" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Contact -->
+    <section id="contact">
+      <div class="contact-form bg-primary p-2">
+        <h2 class="m-heading">Contact Us</h2>
+        <p>Please use the form below to contact us</p>
+        <form method='POST' name='contact'><input type='hidden' name='form-name' value='contact' />
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="Email"
+              name="email"
+              id="email"
+              placeholder="Enter Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Enter Phone Number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Enter Message"
+            ></textarea>
+          </div>
+          <div class="my-2">
+     
+          </div>
+          <input
+            type="submit"
+            value="Send"
+            class="btn-dark"
+            style="width:100%;"
+          />
+        </form>
+      </div>
+      <div class="map bg-light">
+        <h1 class="s-heading p-2">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.447877053914!2d67.06530070000001!3d24.9848929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb340e150c5d533%3A0xb2527c8fe91b1b92!2sJamia%20Masjid%20Al-Huda!5e0!3m2!1sen!2s!4v1742635235899!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </h1>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+      <div class="container">
+        <p>Copyright &copy; 2025, EdgeLedger, All Rights Reserved</p>
+      </div>
+    </footer>
+
+  
+  </body>
+</html>
+
+
